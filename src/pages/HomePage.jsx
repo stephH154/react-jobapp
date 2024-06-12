@@ -11,7 +11,7 @@ const HomePage = () => {
       {/* <Hero title="Test Title" subtitle="This is the subtitle " /> */}
       <Hero />
       <HomeCards />
-      <Joblistings />
+      <Joblistings isHome={true} />
       <ViewAllJobs />
     </>
   );
